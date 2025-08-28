@@ -52,8 +52,7 @@ cd cashflow
 
 ```bash
 python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
+source venv\Scripts\activate
 ```
 
 ### 3️⃣ Run Migrations
@@ -83,7 +82,7 @@ App will be live at 👉 `http://127.0.0.1:8000/`
 
 ## 🖼️ Preview
 
-![CashFlow Logo](expenses/static/expenses/CashFlow.png)
+![CashFlow Logo](expense_tracker/expenses/static/expenses/CashFlow.png)
 
 ---
 
